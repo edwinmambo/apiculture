@@ -1,3 +1,4 @@
+/*************************  MAIN *************************/
 .cover-container {
   position: relative;
   overflow: hidden;
@@ -54,3 +55,36 @@ main {
     transition: all 0.2s ease-in-out;
   }
 }
+
+/*************************  FEATURES *************************/
+
+.card-hover {
+  transition: background-color 0.3s ease-in-out;
+  background-color: transparent;
+
+
+  img {
+    cursor: pointer;
+
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+  }
+}
+
+// .card-link {
+//   text-decoration: none;
+//   cursor: pointer;
+//   color: #836d00;
+
+
+//   &:hover {
+//     text-decoration: underline;
+//     color: #362d00;
+//   }
+// }
