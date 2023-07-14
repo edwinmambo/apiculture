@@ -109,3 +109,14 @@ main {
     }
   }
 }
+
+/*************************  BRANDS *************************/
+.brands {
+  min-height: 100%;
+
+  img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+}
