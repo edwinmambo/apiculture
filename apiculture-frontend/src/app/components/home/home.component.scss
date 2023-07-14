@@ -91,3 +91,21 @@ main {
   //   }
   // }
 }
+
+/*************************  PROGRAMS *************************/
+.programs {
+  min-height: 100vh;
+
+
+  .program-link {
+    text-decoration: none;
+    cursor: pointer;
+
+
+
+    &:hover {
+      text-decoration: underline;
+      color: #836d00;
+    }
+  }
+}
