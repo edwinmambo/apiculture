@@ -57,34 +57,37 @@ main {
 }
 
 /*************************  FEATURES *************************/
+.features {
+  min-height: 100vh;
 
-.card-hover {
-  transition: background-color 0.3s ease-in-out;
-  background-color: transparent;
-
-
-  img {
-    cursor: pointer;
+  .card-hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent;
 
 
-    &:hover {
-      opacity: 0.6;
+    img {
+      cursor: pointer;
+
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
+
+    // &:hover {
+    //   background-color: rgba(0, 0, 0, 0.09);
+    // }
   }
 
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.09);
-  }
+  // .card-link {
+  //   text-decoration: none;
+  //   cursor: pointer;
+  //   color: #836d00;
+
+
+  //   &:hover {
+  //     text-decoration: underline;
+  //     color: #362d00;
+  //   }
+  // }
 }
-
-// .card-link {
-//   text-decoration: none;
-//   cursor: pointer;
-//   color: #836d00;
-
-
-//   &:hover {
-//     text-decoration: underline;
-//     color: #362d00;
-//   }
-// }
