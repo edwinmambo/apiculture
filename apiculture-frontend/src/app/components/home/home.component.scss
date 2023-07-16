@@ -140,3 +140,24 @@ main {
     }
   }
 }
+
+/*************************  REVIEWS *************************/
+.reviews {
+
+  .review-item {
+    height: 500px;
+
+    .review-text {
+      font-style: italic;
+      font-family: serif;
+      font-size: 1.2rem;
+      color: #f0c808;
+
+      span {
+        font-size: 3rem;
+        font-weight: bold;
+        font-weight: 600;
+      }
+    }
+  }
+}
