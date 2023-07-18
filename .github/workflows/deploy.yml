@@ -19,10 +19,10 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
       - name: Build the Angular app
-        run: yarn build:host
+        run: npm run build -- --prod
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
