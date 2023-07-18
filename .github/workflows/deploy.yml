@@ -19,10 +19,12 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
+        working-directory: ./apiculture-frontend
         run: yarn install --frozen-lockfile
 
       - name: Build the Angular app
-        run: yarn build --prod
+        working-directory: ./apiculture-frontend
+        run: yarn build:host
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
